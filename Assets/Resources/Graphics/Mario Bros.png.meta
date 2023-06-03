@@ -1,0 +1,1323 @@
+fileFormatVersion: 2
+guid: 318299ed23153b842bcf071ef68d274d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mario Bros_0
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 765
+        width: 13
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d17aa766db2a4499f902aa0af9d438
+      internalID: 1899670643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_1
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 765
+        width: 15
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7179cf21dfa1442a9616127c7a2247
+      internalID: 1231385026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_2
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 764
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f93eb044807a145a21874ce8c19a84
+      internalID: 487530286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_3
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 765
+        width: 12
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63f834af8520b9429826ed1af6521f4
+      internalID: 1783198757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_4
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 765
+        width: 14
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b863f49fff040c41946729af38d2616
+      internalID: 1037643568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_5
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 765
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e607f611b3c1a984f90bdc119a447afd
+      internalID: 1624779127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_6
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 765
+        width: 17
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4cd3ad7a2aa0d141a68e65fa4c55ace
+      internalID: -59645981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_7
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 707
+        width: 16
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305e28fa9957f0047bc7eddbe6de131b
+      internalID: 259690931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_8
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 708
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f8e993544b58e4ba334c555d4a3d1a
+      internalID: -848477943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_9
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 708
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc70d4f0eab26e4ea31f939c6508b57
+      internalID: -1077309974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_10
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 708
+        width: 14
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a786a721ca0e7459d0df2f4cec266c
+      internalID: 1205259831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_11
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 709
+        width: 16
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98f88cf532be39409227f0f525c8687
+      internalID: 617395326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_12
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 708
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1556d190513a4e740873b00337b67edf
+      internalID: -1592875461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_13
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 710
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1449d4f0a02bd3142a50ffa64a0857b3
+      internalID: -638631999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_14
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 625
+        width: 16
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddbd882911d3a9a44b30d1343425fa86
+      internalID: -1777462705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_15
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 626
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0eb4ecd44d201439c8cfe03852bb92
+      internalID: 377426503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_16
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 626
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04667cf7c1694ca4bb0ff46b138f7f32
+      internalID: -999583590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_17
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 626
+        width: 14
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264fed3fbf55b2d45853c0534645e910
+      internalID: 126931468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_18
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 627
+        width: 16
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce384c5bb9f784545902582f0d90ff83
+      internalID: 1814598790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_19
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 626
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8236e4072d8706243bdccd2773f5bb51
+      internalID: -467126118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_20
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 628
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712ed9ffd3885cb46acedb2333401dc9
+      internalID: -504077333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_21
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 667
+        width: 16
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71ff10e28fa2874da14a0abdf3615a6
+      internalID: 200421549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_22
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b0123445b166a48ad28b55c51e75c8
+      internalID: -441320376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_23
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98fc748f2dc6a5b41a6a41f7b6762d83
+      internalID: -629743111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_24
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cae6d49adb57834f89d93a95756c2d6
+      internalID: 1206146283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_25
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 1148
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953cc112aa36b3c40a8e0681f719752b
+      internalID: -565863912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_26
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 1225
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d5a02d54da13e4a831d43d5787906e
+      internalID: -250512871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_27
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 1207
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b75d16b74f45374fbfeefc35ce631b1
+      internalID: -609286264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_28
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 1226
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d2b476bb9ffc14099fe3c888a7f6fe
+      internalID: -281647507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_29
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 1190
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac707dd04a746f448c8a88597e2479e
+      internalID: -767893307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_30
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1093
+        width: 80
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b850fc8e119a9f409d0c27c667bd8ef
+      internalID: 1360354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_31
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1093
+        width: 48
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b4d69ec55a37e46a1e38dc6fdbb12f
+      internalID: -949520641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_32
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1066
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f6005c23ccaf0419915879208516ab
+      internalID: 905434285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_33
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1066
+        width: 64
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff402814497296047a1414c38dfc8542
+      internalID: 864062260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_34
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1066
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84236399aef1e5e43816d4302e6aee1d
+      internalID: 1201366887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_35
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1019
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea7857ba6866204f86c2da54f67d560
+      internalID: 1672754680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_36
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1019
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f11276129b2284aad7ad2eebfb2da3
+      internalID: -146273342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_37
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1019
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be72146cd5a24614e9d0868705dd09d5
+      internalID: -780713132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_38
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 378
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a9b8e34059ecc48950688dc39fd67d
+      internalID: 649212287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_39
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 378
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f9b1e5d5d6b6447acc6d84a45b37c5
+      internalID: 1574325076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_40
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 379
+        width: 16
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4575de0f04788ea4fb92c192fe782ca4
+      internalID: -764370080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_41
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 448
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec428bc606bdb843a24da4a3f76c9e5
+      internalID: -777358430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_42
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 449
+        width: 16
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7990fa10297733345875e4d45257ba73
+      internalID: -1854397243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_43
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 449
+        width: 16
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af37956bc8e63854ca1a28f2908a5781
+      internalID: 1498128139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_44
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 449
+        width: 16
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d4e1dd5b9dcae4397c5a419b3b990b
+      internalID: -1137448158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_45
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1229
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551d857fb824e6445b124359f42fdfa8
+      internalID: 841802292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_46
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae79f248aa8f0c46b1704b13c3c48f3
+      internalID: -898298404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_47
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1208
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa53a172929a6bb40b6950a6f15358ee
+      internalID: 1122709164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_48
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3fec0921685bae44a13f59243bb46a4
+      internalID: -740857987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_49
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3664b11fcd19a04686b34fd4467fa96
+      internalID: -1611766596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_50
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1129
+        width: 1
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178224e3c48db634fbf1f25baad1055c
+      internalID: 95072048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_51
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1129
+        width: 4
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692e0545674cca341a7a1471198fff33
+      internalID: -1220111292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_52
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1129
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098b8a910f12a794db8c3c61b8a7a6f2
+      internalID: 320816114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Bros_53
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 1129
+        width: 4
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873f5239ea00e5941b4edfdfe635b728
+      internalID: 1528629165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mario Bros_0: -1648304591
+      Mario Bros_1: 1899670643
+      Mario Bros_10: -1077309974
+      Mario Bros_11: 1205259831
+      Mario Bros_12: 617395326
+      Mario Bros_13: -1592875461
+      Mario Bros_14: -638631999
+      Mario Bros_15: -1777462705
+      Mario Bros_16: 377426503
+      Mario Bros_17: -999583590
+      Mario Bros_18: 126931468
+      Mario Bros_19: 1814598790
+      Mario Bros_2: 1231385026
+      Mario Bros_20: -467126118
+      Mario Bros_21: -504077333
+      Mario Bros_22: 200421549
+      Mario Bros_23: -441320376
+      Mario Bros_24: -629743111
+      Mario Bros_25: 1206146283
+      Mario Bros_26: -565863912
+      Mario Bros_27: -250512871
+      Mario Bros_28: -609286264
+      Mario Bros_29: -281647507
+      Mario Bros_3: 487530286
+      Mario Bros_30: 1360354
+      Mario Bros_31: -949520641
+      Mario Bros_32: 905434285
+      Mario Bros_33: 864062260
+      Mario Bros_34: 1201366887
+      Mario Bros_35: 1672754680
+      Mario Bros_36: -146273342
+      Mario Bros_37: -780713132
+      Mario Bros_38: 649212287
+      Mario Bros_39: 1574325076
+      Mario Bros_4: 1783198757
+      Mario Bros_40: -764370080
+      Mario Bros_41: -777358430
+      Mario Bros_42: -1854397243
+      Mario Bros_43: 1498128139
+      Mario Bros_44: -1137448158
+      Mario Bros_45: 841802292
+      Mario Bros_46: -898298404
+      Mario Bros_47: 1122709164
+      Mario Bros_48: -740857987
+      Mario Bros_49: -1611766596
+      Mario Bros_5: 1037643568
+      Mario Bros_50: 95072048
+      Mario Bros_51: -1220111292
+      Mario Bros_52: 320816114
+      Mario Bros_53: 1528629165
+      Mario Bros_6: 1624779127
+      Mario Bros_7: -59645981
+      Mario Bros_8: 259690931
+      Mario Bros_9: -848477943
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

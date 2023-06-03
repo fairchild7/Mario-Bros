@@ -1,0 +1,523 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1681702282818669, "dur":1465, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681702282820137, "dur":40, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1681702282820184, "dur":15, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1681702282820199, "dur":272, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1681702282820486, "dur":383, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681702282820869, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681702287631052, "dur":962, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681702287632015, "dur":79, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681702287632095, "dur":16, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681702287632111, "dur":34, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681702287632145, "dur":13, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681702287632159, "dur":58, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681702287632217, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681702287632225, "dur":27, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681702287632252, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681702287632260, "dur":23, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681702287632284, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681702287632291, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681702287632316, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681702287632324, "dur":22, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681702287632347, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681702287632354, "dur":28, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681702287632382, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681702287632390, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681702287632411, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681702287632418, "dur":38, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681702287632457, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681702287632464, "dur":26, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681702287632490, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681702287632497, "dur":31, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681702287632528, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681702287632571, "dur":7, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681702287632825, "dur":9282, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1681702282820899, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681702282820899, "dur":2470, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681702282823369, "dur":6989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1681702282830362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681702283848851, "dur":135189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1681702283984128, "dur":47327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681702284031457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681702284031461, "dur":137942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681702284169418, "dur":20484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681702284189905, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681702284189911, "dur":6938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681702284196862, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681702284197086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681702284197089, "dur":150979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681702284348268, "dur":25025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681702284373296, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681702284373303, "dur":10122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681702284383436, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681702284383547, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681702284383552, "dur":8533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681702284392096, "dur":12823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681702284404923, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681702284404929, "dur":8129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681702284413067, "dur":12476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681702284425547, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681702284425554, "dur":383780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681702284809343, "dur":472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681702284809817, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681702284809820, "dur":18480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681702284828313, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681702284828441, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681702284828448, "dur":12265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681702284840724, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681702284840929, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681702284840933, "dur":375547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681702285216565, "dur":1471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681702285218058, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681702285218103, "dur":12658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681702285230771, "dur":2579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681702285233352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681702285233356, "dur":733130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681702285966495, "dur":1664505, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681702282820888, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681702282820889, "dur":2472, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681702282823365, "dur":6996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1681702282830363, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681702283973476, "dur":18675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1681702283992237, "dur":43689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681702284035941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681702284035944, "dur":135330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681702284171290, "dur":18516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681702284189810, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681702284189817, "dur":5318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681702284195143, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681702284195234, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681702284195237, "dur":8942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681702284204188, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681702284204340, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681702284204344, "dur":150040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681702284354397, "dur":15954, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681702284370355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681702284370360, "dur":6548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681702284376916, "dur":12474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681702284389401, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681702284389407, "dur":8485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681702284397904, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681702284398013, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681702284398017, "dur":6124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681702284404153, "dur":13538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681702284417695, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681702284417701, "dur":384932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681702284802644, "dur":343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681702284802989, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681702284802993, "dur":21392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681702284824403, "dur":44627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681702284869033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681702284869038, "dur":361713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681702285230761, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681702285231005, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681702285231008, "dur":223282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681702285454307, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/resources.resource" }}
+,{ "pid":12345, "tid":2, "ts":1681702285454327, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681702285454335, "dur":505876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/resources.resource" }}
+,{ "pid":12345, "tid":2, "ts":1681702285960274, "dur":1670683, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681702282820801, "dur":79, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681702282820880, "dur":2483, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681702282823365, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1681702282823440, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681702283081796, "dur":202485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1681702283284305, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1681702283284459, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681702283284503, "dur":351894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1681702283636495, "dur":209616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1681702283846117, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681702283846125, "dur":303821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1681702284149961, "dur":24865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681702284174832, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681702284174842, "dur":2315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681702284177169, "dur":14960, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681702284192133, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681702284192159, "dur":7395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681702284199563, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681702284199656, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681702284199660, "dur":147598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681702284347316, "dur":36660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681702284383979, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681702284383985, "dur":15123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681702284399116, "dur":12750, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681702284411869, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681702284411874, "dur":4280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681702284416165, "dur":60216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681702284476384, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681702284476390, "dur":333907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681702284810319, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681702284810512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681702284810523, "dur":16421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681702284826959, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681702284827168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681702284827176, "dur":11623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681702284838810, "dur":2363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681702284841175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681702284841179, "dur":379633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681702285220975, "dur":413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681702285221392, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681702285221396, "dur":21933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681702285243336, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681702285243425, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681702285243429, "dur":211278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681702285454722, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1681702285454739, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681702285454746, "dur":632246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1681702286087003, "dur":1543989, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681702282820843, "dur":46, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681702282820890, "dur":2468, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681702282823366, "dur":15889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1681702282839258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681702284157706, "dur":13617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1681702284171357, "dur":34180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681702284205539, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681702284205544, "dur":149815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681702284355368, "dur":14911, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681702284370286, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681702284370295, "dur":5655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681702284375963, "dur":21287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681702284397253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681702284397259, "dur":6235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681702284403503, "dur":13390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681702284416897, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681702284416904, "dur":185801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681702284602767, "dur":18331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681702284621120, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681702284621147, "dur":188169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681702284809324, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681702284809483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681702284809488, "dur":18409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681702284827908, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681702284828022, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681702284828028, "dur":11245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681702284839284, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681702284839391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681702284839396, "dur":15449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681702284854856, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681702284854933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681702284854954, "dur":361698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681702285216738, "dur":1290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681702285218051, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681702285218099, "dur":12641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681702285230752, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681702285230919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681702285230925, "dur":216380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681702285447373, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1681702285447612, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681702285447620, "dur":309409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1681702285757097, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1681702285757157, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681702285757183, "dur":332349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1681702286089542, "dur":1541442, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681702282820891, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681702282820892, "dur":2467, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681702282823365, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1681702282823468, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681702283646125, "dur":346077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1681702283992290, "dur":32447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681702284024740, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681702284024777, "dur":146490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681702284171279, "dur":17146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681702284188430, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681702284188439, "dur":6701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681702284195150, "dur":973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681702284196127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681702284196132, "dur":150457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681702284346647, "dur":20939, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681702284367592, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681702284367623, "dur":5359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681702284372993, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681702284373203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681702284373209, "dur":9194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681702284382414, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681702284382502, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681702284382506, "dur":4750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681702284387272, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681702284387386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681702284387420, "dur":10459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681702284397891, "dur":20153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681702284418046, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681702284418050, "dur":385435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681702284803507, "dur":651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681702284804165, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681702284804181, "dur":13881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681702284818084, "dur":47233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681702284865321, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681702284865327, "dur":361232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681702285226573, "dur":801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681702285227376, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681702285227382, "dur":222928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681702285450329, "dur":1074, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1681702285451409, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681702285451420, "dur":507999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1681702285959492, "dur":1671532, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681702282820850, "dur":44, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681702282820894, "dur":2479, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681702282823373, "dur":160843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1681702282984220, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681702283031186, "dur":131668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1681702283162872, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1681702283162916, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681702283279838, "dur":358755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1681702283638690, "dur":31180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros.exe" }}
+,{ "pid":12345, "tid":6, "ts":1681702283669875, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681702283669883, "dur":308290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros.exe" }}
+,{ "pid":12345, "tid":6, "ts":1681702283978233, "dur":46397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681702284024636, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681702284024676, "dur":144184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681702284168879, "dur":58255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681702284227138, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681702284227144, "dur":128218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681702284355370, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681702284355469, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681702284355475, "dur":5383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681702284360866, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681702284361035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681702284361042, "dur":5131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681702284366187, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681702284366412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681702284366419, "dur":5530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681702284372084, "dur":12698, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681702284384784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681702284384787, "dur":11483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681702284396279, "dur":15203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681702284411486, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681702284411494, "dur":4065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681702284415571, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681702284415778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681702284415810, "dur":186218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681702284602095, "dur":950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681702284603071, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681702284603110, "dur":209812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681702284812945, "dur":37251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681702284850201, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681702284850209, "dur":366673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681702285216966, "dur":1525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681702285218515, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681702285218557, "dur":12198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681702285230767, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681702285230918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681702285230925, "dur":216363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681702285447312, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1681702285447351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681702285447424, "dur":311304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1681702285758793, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1681702285758853, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681702285758878, "dur":412250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1681702286171206, "dur":1459769, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681702282820813, "dur":72, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681702282820885, "dur":2481, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681702282823367, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1681702282823459, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681702283282360, "dur":353923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1681702283636360, "dur":3669748, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681702287306196, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681702287306213, "dur":324587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681702287630854, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1681702287630866, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681702282820938, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681702282820938, "dur":2433, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681702282823371, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1681702282823437, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681702283032433, "dur":251834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1681702283284289, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1681702283284435, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681702283284471, "dur":362908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1681702283647390, "dur":25101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681702283672496, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681702283971778, "dur":20330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681702283992159, "dur":40523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681702284032683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681702284032686, "dur":138575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681702284171279, "dur":21020, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681702284192302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681702284192307, "dur":10653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681702284202971, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681702284203218, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681702284203223, "dur":151864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681702284355099, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681702284355195, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681702284355200, "dur":5414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681702284360626, "dur":15909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681702284376539, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681702284376547, "dur":9340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681702284385895, "dur":13185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681702284399083, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681702284399088, "dur":5039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681702284404136, "dur":13292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681702284417431, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681702284417438, "dur":381916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681702284799435, "dur":1203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681702284800640, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681702284800644, "dur":16147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681702284816799, "dur":26694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681702284843496, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681702284843501, "dur":377017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681702285220589, "dur":2637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681702285223228, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681702285223232, "dur":223133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681702285446377, "dur":14188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681702285460569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681702285958369, "dur":212148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681702286170571, "dur":1460440, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681702282820881, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681702282820881, "dur":2483, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681702282823365, "dur":160859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1681702282984272, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681702283032404, "dur":132295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1681702283164760, "dur":76098, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1681702283240862, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681702283240869, "dur":43765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1681702283284692, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1681702283284803, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681702283284834, "dur":355215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1681702283640732, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1681702283640937, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681702283643783, "dur":529530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1681702284173331, "dur":16644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681702284189978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681702284189983, "dur":6874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681702284196867, "dur":11771, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681702284208645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681702284208649, "dur":149513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681702284358175, "dur":15619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681702284373797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681702284373803, "dur":9616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681702284383442, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681702284383661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681702284383666, "dur":12596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681702284396273, "dur":35253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681702284431528, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681702284431533, "dur":377787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681702284809338, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681702284809611, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681702284809615, "dur":19421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681702284829045, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681702284829166, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681702284829171, "dur":12632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681702284841810, "dur":847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681702284842661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681702284842667, "dur":376469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681702285219196, "dur":2289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681702285221488, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681702285221492, "dur":225270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681702285446779, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1681702285446809, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681702285446833, "dur":321341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1681702285768211, "dur":304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1681702285768522, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681702285768537, "dur":400538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1681702286169135, "dur":1461814, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681702282820794, "dur":80, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681702282820876, "dur":2480, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681702282823366, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":10, "ts":1681702282823375, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681702283002039, "dur":29781, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":10, "ts":1681702283031856, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/app.info" }}
+,{ "pid":12345, "tid":10, "ts":1681702283031930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681702283081100, "dur":141666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/app.info" }}
+,{ "pid":12345, "tid":10, "ts":1681702283222776, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1681702283222991, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681702283223103, "dur":180592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1681702283403707, "dur":753707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681702284157430, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681702284161048, "dur":13996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681702284175060, "dur":39027, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681702284214090, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681702284214095, "dur":144079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681702284358185, "dur":15630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681702284373818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681702284373823, "dur":9285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681702284383116, "dur":14177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681702284397296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681702284397302, "dur":5990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681702284403306, "dur":1137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681702284404446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681702284404452, "dur":393112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681702284797699, "dur":801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681702284798522, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681702284798563, "dur":14346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681702284812938, "dur":922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681702284813869, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681702284813887, "dur":14421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681702284828322, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681702284828473, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681702284828478, "dur":12239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681702284840726, "dur":340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681702284841069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681702284841075, "dur":376258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681702285217463, "dur":917, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681702285218404, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681702285218450, "dur":21106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681702285239563, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681702285239737, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681702285239740, "dur":515023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681702285754822, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1681702285754887, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681702285754913, "dur":211581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1681702285966502, "dur":1664443, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681702282820912, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681702282820912, "dur":2462, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681702282823374, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1681702282823458, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681702283402751, "dur":244624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1681702283647387, "dur":46998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681702283694389, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681702283866759, "dur":125500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681702283992354, "dur":38765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681702284031123, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681702284031129, "dur":140153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681702284171302, "dur":15860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681702284187169, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681702284187177, "dur":3454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681702284190641, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681702284190746, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681702284190751, "dur":12204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681702284202967, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681702284203119, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681702284203126, "dur":144885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681702284348094, "dur":28437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681702284376556, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681702284376561, "dur":9372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681702284385940, "dur":11784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681702284397726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681702284397729, "dur":6417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681702284404158, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681702284404329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681702284404336, "dur":6659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681702284411008, "dur":19134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681702284430145, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681702284430151, "dur":379179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681702284809344, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681702284809417, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681702284809439, "dur":17466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681702284826922, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681702284827080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681702284827089, "dur":11341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681702284838441, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681702284838607, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681702284838613, "dur":16277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681702284854898, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681702284855029, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681702284855032, "dur":365735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681702285220845, "dur":1736, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681702285222583, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681702285222587, "dur":224622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681702285447230, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1681702285447266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681702285447276, "dur":642260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/Mario Bros_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1681702286089544, "dur":1541394, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681702282820933, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681702282820933, "dur":2434, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681702282823368, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1681702282823455, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681702283220105, "dur":64149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1681702283284276, "dur":117290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1681702283401570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681702283401582, "dur":234503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1681702283636192, "dur":3105876, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Unity Projects/Mario Bros - Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681702286742087, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681702286742201, "dur":115355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Unity Projects/Mario Bros - Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681702286857603, "dur":773412, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681702287693628, "dur":4025, "ph":"X", "name": "ProfilerWriteOutput" }
+,
